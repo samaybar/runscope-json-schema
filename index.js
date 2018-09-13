@@ -3,7 +3,7 @@
 const axios = require('axios');
 const log = require("./lib/helpers/logger");
 const settings = require('./settings.js');
-const jsonSchemaGenerator = require('./lib/json-schema-generator/index');
+const jsonSchemaGenerator = require('json-schema-generator');
 
 
 let {apikey,tests} = settings;
